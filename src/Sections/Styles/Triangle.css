@@ -1,0 +1,43 @@
+.up {
+  width: 0px;
+  height: 0px;
+  border-style: inset;
+  border-width: 0 40vw 85.5vw 40vw;
+  float: left;
+  border-color: transparent transparent #007bff transparent;
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  margin-left: 10vw;
+  margin-top: 4vh;
+}
+
+.up p {
+  text-align: center;
+  top: 40vw;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+@media only screen and (min-width: 550px) {
+  .up {
+    border-width: 0 220px 470.25px 220px;
+  }
+  .up p {
+    top: 220px;
+  }
+}
+
+@media only screen and (min-width: 885px) {
+  .up {
+    margin-left: 0;
+  }
+}

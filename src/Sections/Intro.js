@@ -11,6 +11,7 @@ const Intro = () => {
           <Triangle />
         </div>
       </section>
+      <section className="S bluebg "></section>
     </div>
   );
 };

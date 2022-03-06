@@ -1,3 +1,10 @@
+.textwhite {
+  color: white;
+}
+
+.main {
+  font-size: xx-large;
+}
 .up {
   width: 0px;
   height: 0px;
@@ -12,19 +19,42 @@
   -o-transform: rotate(360deg);
   margin-left: 10vw;
   margin-top: 4vh;
+  font-weight: 600;
 }
 
 .up p {
   text-align: center;
-  top: 40vw;
-  left: -47px;
+  top: 30vw;
+  left: -55px;
   position: relative;
   width: 93px;
-  height: 93px;
-  margin: 0px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.up div {
+  text-align: center;
+  top: 29vw;
+  left: -27.54vw;
+  position: relative;
+  width: 55vw;
+  height: 18vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.up div p {
+  text-align: center;
+  top: 1vw;
+  left: 0;
+  position: relative;
+  max-width: 15vw;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 480px) {
+  .up div p {
+    font-size: xx-small;
+  }
 }
 
 @media only screen and (min-width: 550px) {
@@ -32,7 +62,18 @@
     border-width: 0 220px 470.25px 220px;
   }
   .up p {
-    top: 220px;
+    top: 165px;
+    /* left:; */
+  }
+
+  .up div {
+    top: 200px;
+    width: 302.5px;
+    left: -151.47px;
+    height: 115px;
+  }
+  .up div p {
+    max-width: 80px;
   }
 }
 

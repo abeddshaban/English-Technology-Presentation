@@ -4,7 +4,7 @@ import Triangle from "./Triangle";
 const Intro = () => {
   return (
     <div className="marg0 pad0">
-      <section className="S bluebg ">
+      <section className="S  ">
         {/* <h1 className="centertext marg0 pad0">Technology</h1> */}
         <div className="responsive">
           <Triangle
@@ -21,7 +21,7 @@ const Intro = () => {
           />
         </div>
       </section>
-      <section className="S bluebg "></section>
+      <section className="S  "></section>
     </div>
   );
 };

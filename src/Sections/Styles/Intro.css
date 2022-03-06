@@ -3,7 +3,7 @@
 .title_div {
   padding: 0;
   margin: 0;
-  width: 100%;
+  width: 98%;
   text-align: center;
   font-weight: 600;
   padding-top: 37vh;
@@ -34,6 +34,15 @@
   to {
     background-position: 200% center;
   }
+}
+
+.doneby {
+  font-family: "Fredoka", sans-serif;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
 }
 
 .responsive {

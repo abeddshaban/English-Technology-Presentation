@@ -4,9 +4,16 @@ import Triangle from "./Triangle";
 const Intro = () => {
   return (
     <div className="marg0 pad0">
+      {/* title */}
       <section className="S  ">
         <div class="title_div">
           <span class="animate-charcter"> Technology</span>
+        </div>
+
+        <div className="doneby">
+          <span>
+            by: Abed AL Ghani Shaaban, Lara Husami, Mohamad Ahmad, Rein Berro
+          </span>
         </div>
       </section>
 

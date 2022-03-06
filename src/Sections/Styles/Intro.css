@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+.title_div {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 37vh;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 14vw;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 .responsive {
   display: flex;
   flex-direction: column;
@@ -11,7 +49,7 @@
   color: white;
 }
 .bluebg {
-  background-color: blue;
+  background-color: #003cff;
 }
 .S {
   height: 100vh;

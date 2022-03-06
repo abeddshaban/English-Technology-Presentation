@@ -5,7 +5,12 @@ const Intro = () => {
   return (
     <div className="marg0 pad0">
       <section className="S  ">
-        {/* <h1 className="centertext marg0 pad0">Technology</h1> */}
+        <div class="title_div">
+          <span class="animate-charcter"> Technology</span>
+        </div>
+      </section>
+
+      <section className="S  ">
         <div className="responsive">
           <Triangle
             mt="adv"
@@ -21,7 +26,7 @@ const Intro = () => {
           />
         </div>
       </section>
-      <section className="S  "></section>
+      <section className="S bluebg "></section>
     </div>
   );
 };

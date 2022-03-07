@@ -7,9 +7,9 @@ const Intro = () => {
     <div className="marg0 pad0">
       {/* title */}
 
-      <section className="S  ">
+      <section className="S">
         <div class="title_div">
-          <span class="animate-charcter"> Technoligy</span>
+          <span class="animate-charcter">Technoligy</span>
         </div>
         <div className="doneby">
           <span>

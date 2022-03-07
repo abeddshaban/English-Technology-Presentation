@@ -59,6 +59,17 @@
   margin-left: -22vw;
   margin-top: -4.5vw;
   margin-bottom: -7.7vw;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .list_span {
@@ -66,6 +77,8 @@
   align-self: center;
   font-weight: 600;
   font-size: medium;
+  width: 85%;
+  max-width: 85%;
 }
 
 .responsive {
@@ -73,7 +86,6 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
-
 .centertext {
   text-align: center;
 }
@@ -99,6 +111,7 @@
     flex-direction: row;
   }
 }
+
 @media only screen and (min-width: 530px) {
   .img_label {
     margin-left: -116.6px;

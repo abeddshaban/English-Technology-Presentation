@@ -11,7 +11,7 @@ const With = () => {
         </ul>
       </section>
       <section className="S">
-        <ul className="textwhite list">
+        <ul className=" list">
           <img src={blueRobot} alt="label" className="img_blueRobot" />
           <span className="list_span">controlling idea 2</span>
         </ul>

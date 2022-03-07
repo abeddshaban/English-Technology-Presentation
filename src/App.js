@@ -2,6 +2,7 @@ import "./Styles/App.css";
 import Intro from "./Sections/Intro";
 import Triangle from "./Sections/Triangle";
 import With from "./Sections/With";
+import Against from "./Sections/Against";
 // import AnimatedS from "./Sections/AnimatedS";
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
           />
         </div>
       </section>
+
+      <Against />
     </div>
   );
 }

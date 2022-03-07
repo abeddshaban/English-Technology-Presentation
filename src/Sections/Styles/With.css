@@ -5,9 +5,6 @@
   max-height: 193.44px;
   margin-right: -10vw;
   margin-left: 2vw;
-  /*
-  margin-top: -4.5vw;
-  margin-bottom: -7.7vw; */
   -webkit-animation: blueRobot 1s infinite alternate;
   animation: blueRobot 1s infinite alternate;
 }

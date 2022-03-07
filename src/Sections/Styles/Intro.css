@@ -6,7 +6,7 @@
   width: 98%;
   text-align: center;
   font-weight: 600;
-  padding-top: 37vh;
+  padding-top: 30vh;
 }
 
 .animate-charcter {
@@ -40,9 +40,32 @@
   font-family: "Fredoka", sans-serif;
   right: 0;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
   position: absolute;
   bottom: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.img_label {
+  width: 34vw;
+  height: 36vw;
+  max-width: 182.92px;
+  max-height: 193.44px;
+  margin-left: -22vw;
+  margin-top: -4.5vw;
+  margin-bottom: -7.7vw;
+}
+
+.list_span {
+  margin-left: 20px;
+  align-self: center;
+  font-weight: 600;
+  font-size: medium;
 }
 
 .responsive {
@@ -74,5 +97,15 @@
 @media only screen and (min-width: 885px) {
   .responsive {
     flex-direction: row;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .img_label {
+    margin-left: -116.6px;
+    margin-top: -23.85px;
+    margin-bottom: -40.81px;
+  }
+  .list_span {
+    font-size: x-large;
   }
 }

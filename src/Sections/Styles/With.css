@@ -1,0 +1,24 @@
+.img_blueRobot {
+  width: 34vw;
+  height: 36vw;
+  max-width: 182.92px;
+  max-height: 193.44px;
+  margin-right: -10vw;
+  margin-left: 2vw;
+  /*
+  margin-top: -4.5vw;
+  margin-bottom: -7.7vw; */
+  -webkit-animation: blueRobot 1s infinite alternate;
+  animation: blueRobot 1s infinite alternate;
+}
+
+@keyframes blueRobot {
+  0% {
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateY(-30px);
+    transform: translateX(-30px);
+  }
+}

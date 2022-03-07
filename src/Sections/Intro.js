@@ -21,6 +21,7 @@ const Intro = () => {
       {/* def / statistics / facts / quots */}
 
       <section className="S  bluebg">
+        <br />
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
           <span className="list_span">definition</span>
@@ -41,24 +42,6 @@ const Intro = () => {
           <span className="list_span">quots</span>
         </ul>
       </section>
-
-      <section className="S">
-        <div className="responsive">
-          <Triangle
-            mt="adv"
-            ci1="Empowered Finance "
-            ci2="Simplifies Work"
-            ci3="Find Relaxation And Entertainment"
-          />
-          <Triangle
-            mt="disa"
-            ci1="Uncertainty/ Insecure"
-            ci2=" Fast And More Rampant Plagiarism"
-            ci3="Increase Social Disconnect "
-          />
-        </div>
-      </section>
-      <section className="S bluebg "></section>
     </div>
   );
 };

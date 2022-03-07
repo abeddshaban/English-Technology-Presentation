@@ -3,7 +3,7 @@
 .title_div {
   padding: 0;
   margin: 0;
-  width: 98%;
+  width: 95%;
   text-align: center;
   font-weight: 600;
   padding-top: 30vh;
@@ -73,7 +73,7 @@
 }
 
 .list_span {
-  margin-left: 20px;
+  margin-left: 5vw;
   align-self: center;
   font-weight: 600;
   font-size: medium;

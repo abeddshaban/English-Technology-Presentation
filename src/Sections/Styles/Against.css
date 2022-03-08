@@ -49,6 +49,16 @@
   max-width: 85%;
 }
 
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
 @media only screen and (min-width: 530px) {
   .list_redspan {
     font-size: x-large;

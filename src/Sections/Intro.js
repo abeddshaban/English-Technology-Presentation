@@ -12,9 +12,7 @@ const Intro = () => {
           <span class="animate-charcter">Technoligy</span>
         </div>
         <div className="doneby">
-          <span>
-            by: Abed AL Ghani Shaaban, Lara Husami, Mohamad Ahmad, Rein Berro
-          </span>
+          <span>by: Abed AL Ghani, Lara, Mohamad, Rein</span>
         </div>
       </section>
 
@@ -24,22 +22,35 @@ const Intro = () => {
         <br />
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
-          <span className="list_span">definition</span>
+          <span className="list_span">
+            <span className="underlined">Definition</span>: Methods, skills,
+            systems or devices to serve a particular purpose.
+            <br />
+            (example : television, games =&gt; entertainment )
+          </span>
         </ul>
 
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
-          <span className="list_span">statistics</span>
+          <span className="list_span">
+            <span className="underlined">Statistics</span>:
+          </span>
         </ul>
 
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
-          <span className="list_span">facts</span>
+          <span className="list_span">
+            <span className="underlined">Facts</span>:
+          </span>
         </ul>
 
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
-          <span className="list_span">quots</span>
+          <span className="list_span">
+            <span className="underlined">Quote</span>:
+            <q> Technology is a useful servant but a dangerous master.</q>
+            {"    "}Christian Lous Lange, Historian
+          </span>
         </ul>
       </section>
     </div>

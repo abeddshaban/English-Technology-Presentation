@@ -15,10 +15,10 @@ function App() {
       <section className="S">
         <div className="responsive">
           <Triangle
-            mt="adv"
-            ci1="Empowered Finance "
+            mt="Advantages"
+            ci1="Empowered Finance"
             ci2="Simplifies Work"
-            ci3="Find Relaxation And Entertainment"
+            ci3="Provides Relaxation And Entertainment"
           />
         </div>
       </section>
@@ -30,10 +30,10 @@ function App() {
       <section className="S">
         <div className="responsive">
           <Triangle
-            mt="disa"
-            ci1="Uncertainty/ Insecure"
-            ci2=" Fast And More Rampant Plagiarism"
-            ci3="Increase Social Disconnect "
+            mt="Disadvantages"
+            ci1="Breaches secure"
+            ci2="Plagiarism"
+            ci3="Increases Social Disconnect"
           />
         </div>
       </section>

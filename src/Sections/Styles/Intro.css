@@ -82,6 +82,9 @@
   max-width: 85%;
 }
 
+.underlined {
+  text-decoration: underline;
+}
 .responsive {
   display: flex;
   flex-direction: column;

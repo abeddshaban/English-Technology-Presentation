@@ -24,15 +24,15 @@
 
 .up p {
   text-align: center;
-  top: 30vw;
-  left: -55px;
+  top: 37vw;
+  left: -85px;
   position: relative;
   width: 93px;
 }
 
 .up div {
   text-align: center;
-  top: 29vw;
+  top: 34vw;
   left: -27.54vw;
   position: relative;
   width: 55vw;
@@ -62,8 +62,7 @@
     border-width: 0 220px 470.25px 220px;
   }
   .up p {
-    top: 165px;
-    /* left:; */
+    top: 203.5px;
   }
 
   .up div {

@@ -3,6 +3,7 @@ import Intro from "./Sections/Intro";
 import Triangle from "./Sections/Triangle";
 import With from "./Sections/With";
 import Against from "./Sections/Against";
+import Footer from "./Sections/Footer";
 // import AnimatedS from "./Sections/AnimatedS";
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <section className="S">
         <div className="responsive">
           <Triangle
-            mt="Disadvantages"
+            mt="Disadvantage"
             ci1="Breaches secure"
             ci2="Plagiarism"
             ci3="Increases Social Disconnect"
@@ -39,6 +40,8 @@ function App() {
       </section>
 
       <Against />
+
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
 .img_blueRobot {
   width: 34vw;
   height: 36vw;
@@ -18,4 +20,37 @@
     transform: translateY(-30px);
     transform: translateX(-30px);
   }
+}
+
+.div_end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: 600;
+}
+.img_wtft {
+  width: 110px;
+}
+
+.FredokaFont {
+  font-family: "Fredoka", sans-serif;
+}
+
+.img_yt {
+  padding: 2px;
+  width: 50px;
+}
+
+.td_table {
+  width: 417px;
+}
+
+.borderwhite {
+  border: 1px solid white;
 }

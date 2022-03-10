@@ -1,6 +1,5 @@
 import "./Styles/Footer.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import Discord from "../Images/discord.png";
 
 const Info = ({ name, email, discord }) => {

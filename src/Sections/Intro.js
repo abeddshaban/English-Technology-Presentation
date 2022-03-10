@@ -1,5 +1,4 @@
 import "./Styles/Intro.css";
-import Triangle from "./Triangle";
 import label from "../Images/label.png";
 
 const Intro = () => {

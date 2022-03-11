@@ -27,6 +27,48 @@
   justify-content: flex-end;
 }
 
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.rotate {
+  overflow: hidden;
+}
+
+.rotate_span {
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  color: white;
+  animation: rotate_word 3s infinite;
+}
+
+@keyframes rotate_word {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+
+  85% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+
+  0% {
+    transform: translateY(100%);
+  }
+}
+
 table,
 td {
   border: 1px solid black;
@@ -53,4 +95,17 @@ td {
 
 .borderwhite {
   border: 1px solid white;
+}
+
+.mD {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vw;
+}
+
+@media only screen and (max-width: 500px) {
+  .mD {
+    flex-direction: column;
+    text-align: center;
+  }
 }

@@ -57,59 +57,67 @@ const With = () => {
       <section className="S bluebg flexcol">
         <ul className="textwhite list">
           <img src={blueRobot} alt="label" className="img_blueRobot" />
-          <span className="list_span FredokaFont">
-            Provides Relaxation And Entertainment
+          <span className="list_span FredokaFont flexRow">
+            Provides
+            <div className="rotate">
+              <span className="rotate_span">Relaxation</span>
+              <span className="rotate_span">Entertainment</span>
+            </div>
           </span>
         </ul>
 
-        <div className="details div_end FredokaFont textwhite">
-          <table className="borderwhite">
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={yt} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite">
-                Largest platform for entertainment
-              </td>
-            </tr>
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={tiktok} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite">
-                New platform that introduced a totally different way of serving
-                content and entertainment
-              </td>
-            </tr>
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={netflix} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite">
-                Watch TV Shows, Movies, Documentaries online
-              </td>
-            </tr>
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={twitch} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite">
-                Interactive livestreaming service
-              </td>
-            </tr>
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={spotify} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite"> Listen/ Stream music</td>
-            </tr>
-            <tr className="borderwhite">
-              <td className="borderwhite">
-                <img className="img_yt" src={store} alt="wtft" />
-              </td>
-              <td className="td_table borderwhite">Download mobile apps</td>
-            </tr>
-          </table>
+        <div className="mD">
+          <div>how to provide relaxation & entertainment</div>
+
+          <div className="details div_end FredokaFont textwhite">
+            <table className="borderwhite">
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={yt} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite">
+                  Largest platform for entertainment
+                </td>
+              </tr>
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={tiktok} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite">
+                  New platform that introduced a totally different way of
+                  serving content and entertainment
+                </td>
+              </tr>
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={netflix} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite">
+                  Watch TV Shows, Movies, Documentaries online
+                </td>
+              </tr>
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={twitch} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite">
+                  Interactive livestreaming service
+                </td>
+              </tr>
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={spotify} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite"> Listen/ Stream music</td>
+              </tr>
+              <tr className="borderwhite">
+                <td className="borderwhite">
+                  <img className="img_yt" src={store} alt="wtft" />
+                </td>
+                <td className="td_table borderwhite">Download mobile apps</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </section>
     </>

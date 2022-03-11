@@ -69,7 +69,7 @@ const With = () => {
                 <img className="img_yt" src={yt} alt="wtft" />
               </td>
               <td className="td_table borderwhite">
-                largest platform for entertainment
+                Largest platform for entertainment
               </td>
             </tr>
             <tr className="borderwhite">
@@ -77,33 +77,37 @@ const With = () => {
                 <img className="img_yt" src={tiktok} alt="wtft" />
               </td>
               <td className="td_table borderwhite">
-                a new platform that introduced a totally different way of
-                serving content and entertainment
+                New platform that introduced a totally different way of serving
+                content and entertainment
               </td>
             </tr>
             <tr className="borderwhite">
               <td className="borderwhite">
                 <img className="img_yt" src={netflix} alt="wtft" />
               </td>
-              <td className="td_table borderwhite">movies</td>
+              <td className="td_table borderwhite">
+                Watch TV Shows, Movies, Documentaries online
+              </td>
             </tr>
             <tr className="borderwhite">
               <td className="borderwhite">
                 <img className="img_yt" src={twitch} alt="wtft" />
               </td>
-              <td className="td_table borderwhite">streaming</td>
+              <td className="td_table borderwhite">
+                Interactive livestreaming service
+              </td>
             </tr>
             <tr className="borderwhite">
               <td className="borderwhite">
                 <img className="img_yt" src={spotify} alt="wtft" />
               </td>
-              <td className="td_table borderwhite">stream music</td>
+              <td className="td_table borderwhite"> Listen/ Stream music</td>
             </tr>
             <tr className="borderwhite">
               <td className="borderwhite">
                 <img className="img_yt" src={store} alt="wtft" />
               </td>
-              <td className="td_table borderwhite">download mobile apps</td>
+              <td className="td_table borderwhite">Download mobile apps</td>
             </tr>
           </table>
         </div>

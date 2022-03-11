@@ -11,7 +11,7 @@ const Intro = () => {
           <span class="animate-charcter">Technoligy</span>
         </div>
         <div className="doneby">
-          <span>by: Abed AL Ghani, Lara, Mohamad, Rein</span>
+          <span>by: Abed AL Ghani, Lara, Mohammad, Rein</span>
         </div>
       </section>
 

@@ -16,7 +16,13 @@ const With = () => {
       <section className="S bluebg flexcol">
         <ul className="textwhite list">
           <img src={blueRobot} alt="label" className="img_blueRobot" />
-          <span className="list_span FredokaFont">Empowered Finance</span>
+          <span className="list_span FredokaFont flexRow">
+            Empowers
+            <div className="rotate ">
+              <span className="rotate_span">Economy</span>
+              <span className="rotate_span">Finance</span>
+            </div>
+          </span>
         </ul>
         {/* img */}
         <span className="details">
@@ -27,7 +33,13 @@ const With = () => {
       <section className="S flexcol">
         <ul className=" list">
           <img src={blueRobot} alt="label" className="img_blueRobot" />
-          <span className="list_span FredokaFont">Simplifies Work</span>
+          <span className="list_span FredokaFont flexRow">
+            Simplifies
+            <div className="rotate ">
+              <span className="rotate_span">Job</span>
+              <span className="rotate_span">Task</span>
+            </div>
+          </span>
         </ul>
         <div className="details div_end FredokaFont">
           {/* 1-  written mail => email => video call */}

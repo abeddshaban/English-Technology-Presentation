@@ -17,7 +17,7 @@ function App() {
         <div className="responsive">
           <Triangle
             mt="Advantages"
-            ci1="Empowered Finance"
+            ci1="Empowers Finance"
             ci2="Simplifies Work"
             ci3="Provides Relaxation And Entertainment"
           />
@@ -32,7 +32,7 @@ function App() {
         <div className="responsive">
           <Triangle
             mt="Disadvantage"
-            ci1="Breaches secure"
+            ci1="Breaches security"
             ci2="Plagiarism"
             ci3="Increases Social Disconnect"
           />
@@ -40,6 +40,8 @@ function App() {
       </section>
 
       <Against />
+
+      {/* footer  */}
 
       <Footer />
     </div>

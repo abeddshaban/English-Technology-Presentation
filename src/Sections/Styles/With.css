@@ -40,7 +40,6 @@
   display: block;
   height: 100%;
   padding-left: 10px;
-  color: white;
   animation: rotate_word 3s infinite;
 }
 

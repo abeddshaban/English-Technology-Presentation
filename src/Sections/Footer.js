@@ -29,10 +29,14 @@ const Footer = () => {
           <Info
             name="Abed Al Ghani"
             email="abedshaaban600@gmail.com"
-            discord="lil XA#3767"
+            discord="useless#7942"
           />
 
-          <Info name="Lara" email="houssami915@gmail.com" discord="komi#9110" />
+          <Info
+            name="Lara"
+            email="houssamilara915@gmail.com"
+            discord="komi#9110"
+          />
 
           <Info
             name="Mohammad"

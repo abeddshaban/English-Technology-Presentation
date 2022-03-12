@@ -111,9 +111,15 @@ td {
   transform: rotate3d(1, 1, 1, 15deg);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 570px) {
   .mD {
     flex-direction: column;
     text-align: center;
+  }
+  .bc_img {
+    margin-top: 14vw;
+    width: 60vw;
+    height: 30vw;
+    align-self: center;
   }
 }

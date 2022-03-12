@@ -13,7 +13,7 @@ function App() {
 
       {/* triangle 1 */}
 
-      <section className="S">
+      <section className="S goodCharecter">
         <div className="responsive">
           <Triangle
             mt="Advantages"
@@ -28,7 +28,7 @@ function App() {
 
       {/* triangle 2  */}
 
-      <section className="S">
+      <section className="S badCharecter">
         <div className="responsive">
           <Triangle
             mt="Disadvantage"

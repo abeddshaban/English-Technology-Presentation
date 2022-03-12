@@ -1,3 +1,19 @@
-.animatedbg {
-  /* background: red; */
+.goodCharecter {
+  background-image: url("../Images/chgood.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.badCharecter {
+  background-image: url("../Images/badcharecter.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 500px) {
+  .goodCharecter {
+    background-size: cover;
+  }
+  .badCharecter {
+    background-size: cover;
+  }
 }

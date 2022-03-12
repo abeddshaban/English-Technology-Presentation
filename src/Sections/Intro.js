@@ -17,7 +17,7 @@ const Intro = () => {
 
       {/* def / statistics / facts / quots */}
 
-      <section className="S  bluebg">
+      <section className="S parallax">
         <br />
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />

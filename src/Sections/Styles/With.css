@@ -102,6 +102,15 @@ td {
   margin-left: 3vw;
 }
 
+.bc_img {
+  margin-right: 4vw;
+  width: 40vw;
+  height: 25vw;
+  border-radius: 8px;
+  box-shadow: 9px 10px 9px 5px #0009;
+  transform: rotate3d(1, 1, 1, 15deg);
+}
+
 @media only screen and (max-width: 500px) {
   .mD {
     flex-direction: column;

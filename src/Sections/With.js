@@ -9,6 +9,7 @@ import netflix from "../Images/netflix.png";
 import spotify from "../Images/spotify.png";
 import twitch from "../Images/twitch.png";
 import store from "../Images/store.png";
+import blockchain from "../Images/blockchain.jpg";
 
 const With = () => {
   return (
@@ -25,9 +26,20 @@ const With = () => {
           </span>
         </ul>
         {/* img */}
-        <span className="details">
-          Trading started, form of asset like money,100% transparent
-        </span>
+        <div className="mD">
+          <span className="details">
+            <ul>
+              <li>trading on distributed exchanges in financial markets</li>
+              <li>making payments faster and more secure</li>
+              <li>verifying sensitive information</li>
+              <li>100% transparent</li>
+              <li>negligible fees</li>
+            </ul>
+
+            <span>solana $0.00025 fee , can hadle 60,000 transactions/sec</span>
+          </span>
+          <img className="bc_img" src={blockchain} alt="blockchain" />
+        </div>
       </section>
 
       <section className="S flexcol">

@@ -1,6 +1,7 @@
 import "./Styles/Footer.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Discord from "../Images/discord.png";
+import { useState } from "react";
 
 const Info = ({ name, email, discord }) => {
   return (
@@ -20,9 +21,33 @@ const Info = ({ name, email, discord }) => {
   );
 };
 
-const Footer = () => {
+const Popup = (props) => {
   return (
-    <div className="halfS">
+    <div className="popup-box">
+      <div className="box">
+        <span className="close-icon" onClick={props.handleClose}>
+          x
+        </span>
+        <b>Resources</b>
+        <p>
+          <a href="https://solana.com/" target="_blank">
+            Solana.com
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+const Footer = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className="halfS FredokaFont">
       <div className="textwhite footer_div">
         contact us at:
         <section className="footer_section">
@@ -49,6 +74,13 @@ const Footer = () => {
             email="rein.berro@gmail.com"
             discord="wraith#6036"
           />
+        </section>
+        <section className="trustmebro">
+          <span>trust me bro:</span>
+          <span className="margleft " onClick={togglePopup}>
+            <span className="textunderlined">resources</span>
+            {isOpen && <Popup handleClose={togglePopup} />}
+          </span>
         </section>
       </div>
       <br />

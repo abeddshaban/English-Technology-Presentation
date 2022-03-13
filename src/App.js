@@ -4,7 +4,6 @@ import Triangle from "./Sections/Triangle";
 import With from "./Sections/With";
 import Against from "./Sections/Against";
 import Footer from "./Sections/Footer";
-// import AnimatedS from "./Sections/AnimatedS";
 
 function App() {
   return (
@@ -40,6 +39,13 @@ function App() {
       </section>
 
       <Against />
+
+      {/* thanks for watching */}
+
+      <section className="S ">
+        <div>thx for watching</div>
+        <div>QR code</div>
+      </section>
 
       {/* footer  */}
 

@@ -112,12 +112,12 @@
 
 .parallax {
   background-image: url("../../Images/nightbg.jpg");
-  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 130% 100vh;
+  background-size: 110vw 100vh;
+  height: 100vh;
   background-size: cover;
 
   animation: animatedBackground 30s linear infinite alternate;

@@ -111,6 +111,15 @@ td {
   transform: rotate3d(1, 1, 1, 15deg);
 }
 
+.ul_list {
+  font-size: large;
+  font-weight: 600;
+}
+
+.margtopdiv {
+  padding-top: 20px;
+}
+
 @media only screen and (max-width: 570px) {
   .mD {
     flex-direction: column;
@@ -121,5 +130,8 @@ td {
     width: 60vw;
     height: 30vw;
     align-self: center;
+  }
+  .ul_list {
+    font-size: small;
   }
 }

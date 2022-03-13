@@ -71,6 +71,15 @@ const Popup = (props) => {
             </a>
             <ReplyIcon />
           </span>
+          <span className="H">
+            <a
+              href="https://www.allaroundmoving.com/how-technology-has-simplified-our-modern-life/"
+              target="_blank"
+            >
+              How Technology Has Simplified Our Modern Life
+            </a>
+            <ReplyIcon />
+          </span>
           {/* <a href="" target="_blank"></a> */}
         </p>
       </div>

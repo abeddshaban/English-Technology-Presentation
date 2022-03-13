@@ -10,8 +10,16 @@ import spotify from "../Images/spotify.png";
 import twitch from "../Images/twitch.png";
 import store from "../Images/store.png";
 import blockchain from "../Images/blockchain.jpg";
+import { Button } from "@mui/material";
+import { useState } from "react";
+import howbc from "../Images/howBC.png";
 
 const With = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <section className="S bluebg flexcol">
@@ -28,7 +36,7 @@ const With = () => {
         {/* img */}
         <div className="mD">
           <span className="details">
-            <ul>
+            <ul className="textwhite ul_list">
               <li>trading on distributed exchanges in financial markets</li>
               <li>making payments faster and more secure</li>
               <li>verifying sensitive information</li>
@@ -36,9 +44,22 @@ const With = () => {
               <li>negligible fees</li>
             </ul>
 
-            <span>solana $0.00025 fee , can hadle 60,000 transactions/sec</span>
+            <span className="textwhite">
+              Example: Solana's fee $0.00025 /can hadle 60,000 transactions/sec
+            </span>
+            <div className="margtopdiv">
+              <Button onClick={togglePopup} on variant="contained">
+                How it works
+              </Button>
+            </div>
           </span>
-          <img className="bc_img" src={blockchain} alt="blockchain" />
+          {isOpen ? (
+            <img className="bc_img" src={howbc} alt="blockchain" />
+          ) : (
+            <img className="bc_img" src={blockchain} alt="blockchain" />
+          )}
+
+          {/* <img className="bc_img" src={blockchain} alt="blockchain" /> */}
         </div>
       </section>
 
@@ -55,6 +76,19 @@ const With = () => {
         </ul>
         <div className="details div_end FredokaFont">
           {/* 1-  written mail => email => video call */}
+          <span className="details">
+            <ul className=" ul_list">
+              <span>
+                Technology has facilitated every single aspect of life
+              </span>
+              <li>health</li>
+              <li>security</li>
+              <li>communication</li>
+              <li>shopping</li>
+              <li>entertainment</li>
+            </ul>
+          </span>
+
           <table>
             <tr>
               <td>

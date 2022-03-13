@@ -58,8 +58,6 @@ const With = () => {
           ) : (
             <img className="bc_img" src={blockchain} alt="blockchain" />
           )}
-
-          {/* <img className="bc_img" src={blockchain} alt="blockchain" /> */}
         </div>
       </section>
 
@@ -74,13 +72,10 @@ const With = () => {
             </div>
           </span>
         </ul>
-        <div className="details div_end FredokaFont">
-          {/* 1-  written mail => email => video call */}
+        <div className="mD">
           <span className="details">
+            <h3>Technology has facilitated every single aspect of life</h3>
             <ul className=" ul_list">
-              <span>
-                Technology has facilitated every single aspect of life
-              </span>
               <li>health</li>
               <li>security</li>
               <li>communication</li>
@@ -88,27 +83,28 @@ const With = () => {
               <li>entertainment</li>
             </ul>
           </span>
-
-          <table>
-            <tr>
-              <td>
-                <img className="img_wtft" src={wtft} alt="wtft" />
-              </td>
-              <td> Facilitated communications</td>
-            </tr>
-            <tr>
-              <td>
-                <img className="img_wtft" src={gbbq} alt="gbbq" />
-              </td>
-              <td> Access to tons of information in seconds</td>
-            </tr>
-            <tr>
-              <td>
-                <img className="img_wtft" src={igg} alt="igg" />
-              </td>
-              <td> Access your work from anywhere</td>
-            </tr>
-          </table>
+          <div className="details div_end FredokaFont">
+            <table>
+              <tr>
+                <td>
+                  <img className="img_wtft" src={wtft} alt="wtft" />
+                </td>
+                <td> Facilitated communications</td>
+              </tr>
+              <tr>
+                <td>
+                  <img className="img_wtft" src={gbbq} alt="gbbq" />
+                </td>
+                <td> Access to tons of information in seconds</td>
+              </tr>
+              <tr>
+                <td>
+                  <img className="img_wtft" src={igg} alt="igg" />
+                </td>
+                <td> Access your work from anywhere</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </section>
 

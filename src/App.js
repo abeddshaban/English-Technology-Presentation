@@ -4,6 +4,7 @@ import Triangle from "./Sections/Triangle";
 import With from "./Sections/With";
 import Against from "./Sections/Against";
 import Footer from "./Sections/Footer";
+import QRcode from "./Images/QRcode.png";
 
 function App() {
   return (
@@ -43,8 +44,14 @@ function App() {
       {/* thanks for watching */}
 
       <section className="S ">
-        <div>thx for watching</div>
-        <div>QR code</div>
+        <div className="w100">
+          <span className="thx FredokaFont textShineBlack">
+            thanks for your attention
+          </span>
+        </div>
+        <div className="qr_div">
+          <img className="qrimg" src={QRcode} alt="" />
+        </div>
       </section>
 
       {/* footer  */}

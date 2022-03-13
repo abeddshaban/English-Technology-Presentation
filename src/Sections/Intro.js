@@ -8,7 +8,7 @@ const Intro = () => {
 
       <section className="S">
         <div class="title_div">
-          <span class="animate-charcter">Technoligy</span>
+          <span class="animate-charcter">Technology</span>
         </div>
         <div className="doneby">
           <span>by: Abed AL Ghani, Lara, Mohammad, Rein</span>

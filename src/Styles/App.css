@@ -8,6 +8,49 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.thx {
+  font-size: 10vw;
+  font-weight: normal;
+}
+.w100 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vw;
+}
+
+.textShineBlack {
+  background: linear-gradient(
+    to right,
+    rgb(255, 251, 0) 20%,
+    #00ff15 30%,
+    #00ffea 70%,
+    rgb(183, 0, 255) 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 7s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}
+.qr_div {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.qrimg {
+  border-radius: 8px;
+  min-width: 200px;
+  width: 200px;
+  min-height: 200px;
+  height: 200px;
+  box-shadow: 9px 12px 9px 5px #0009;
+}
 
 @media only screen and (max-width: 500px) {
   .goodCharecter {

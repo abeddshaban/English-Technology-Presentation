@@ -1,7 +1,8 @@
+import { useState } from "react";
 import "./Styles/Footer.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Discord from "../Images/discord.png";
-import { useState } from "react";
+import ReplyIcon from "@mui/icons-material/Reply";
 
 const Info = ({ name, email, discord }) => {
   return (
@@ -29,10 +30,48 @@ const Popup = (props) => {
           x
         </span>
         <b>Resources</b>
-        <p>
-          <a href="https://solana.com/" target="_blank">
-            Solana.com
-          </a>
+        <p className="pop_a">
+          <span className="H">
+            <a href="https://solana.com/" target="_blank">
+              Solana.com
+            </a>
+            <ReplyIcon />
+          </span>
+          <span className="H">
+            <a href="https://youtu.be/bBC-nXj3Ng4" target="_blank">
+              How does bitcoin actually work?
+            </a>
+            <ReplyIcon />
+          </span>
+          <span className="H">
+            <a
+              href="https://seekingalpha.com/article/4479683-what-is-an-nft?source=acquisition_campaign_google_premium&utm_source=google&utm_medium=cpc&utm_campaign=14926960698&utm_term=133537863789%5Edsa-1635534191729%5E%5E585727700549%5E%5E%5Eg&external=true&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAqbuiGHHWiXiJp-hFTEkZgBioDi8rPMIF0EEmjQOHo74nyQo6aZtlcaAo1ZEALw_wcB"
+              target="_blank"
+            >
+              NFTs
+            </a>
+            <ReplyIcon />
+          </span>
+          <span className="H">
+            <a
+              href="https://www.fastcompany.com/90310803/here-are-the-data-brokers-quietly-buying-and-selling-your-personal-information"
+              target="_blank"
+            >
+              Here are the data brokers quietly buying and selling your personal
+              information.
+            </a>
+            <ReplyIcon />
+          </span>
+          <span className="H">
+            <a
+              href="https://www.investopedia.com/terms/b/blockchain.asp"
+              target="_blank"
+            >
+              Blockchain
+            </a>
+            <ReplyIcon />
+          </span>
+          {/* <a href="" target="_blank"></a> */}
         </p>
       </div>
     </div>

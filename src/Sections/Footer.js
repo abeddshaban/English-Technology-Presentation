@@ -32,19 +32,24 @@ const Popup = (props) => {
         <b>Resources</b>
         <p className="pop_a">
           <span className="H">
-            <a href="https://solana.com/" target="_blank">
+            <a className="H" href="https://solana.com/" target="_blank">
               Solana.com
             </a>
             <ReplyIcon />
           </span>
           <span className="H">
-            <a href="https://youtu.be/bBC-nXj3Ng4" target="_blank">
+            <a
+              className="H"
+              href="https://youtu.be/bBC-nXj3Ng4"
+              target="_blank"
+            >
               How does bitcoin actually work?
             </a>
             <ReplyIcon />
           </span>
           <span className="H">
             <a
+              className="H"
               href="https://seekingalpha.com/article/4479683-what-is-an-nft?source=acquisition_campaign_google_premium&utm_source=google&utm_medium=cpc&utm_campaign=14926960698&utm_term=133537863789%5Edsa-1635534191729%5E%5E585727700549%5E%5E%5Eg&external=true&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAqbuiGHHWiXiJp-hFTEkZgBioDi8rPMIF0EEmjQOHo74nyQo6aZtlcaAo1ZEALw_wcB"
               target="_blank"
             >
@@ -54,6 +59,7 @@ const Popup = (props) => {
           </span>
           <span className="H">
             <a
+              className="H"
               href="https://www.fastcompany.com/90310803/here-are-the-data-brokers-quietly-buying-and-selling-your-personal-information"
               target="_blank"
             >
@@ -64,6 +70,7 @@ const Popup = (props) => {
           </span>
           <span className="H">
             <a
+              className="H"
               href="https://www.investopedia.com/terms/b/blockchain.asp"
               target="_blank"
             >
@@ -73,6 +80,7 @@ const Popup = (props) => {
           </span>
           <span className="H">
             <a
+              className="H"
               href="https://www.allaroundmoving.com/how-technology-has-simplified-our-modern-life/"
               target="_blank"
             >
@@ -82,6 +90,7 @@ const Popup = (props) => {
           </span>
           <span className="H">
             <a
+              className="H"
               href="https://github.com/abeddshaban/English-Technology-Presentation"
               target="_blank"
             >

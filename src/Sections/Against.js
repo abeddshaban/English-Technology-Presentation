@@ -49,11 +49,11 @@ const Against = () => {
               <li>shopping</li>
               <li>entertainment</li>
             </ul>
-            {/* <Button> */}
-            <a href={amjadInfo} target="_blank">
-              Amjad Data
-            </a>
-            {/* </Button> */}
+            <Button>
+              <a className="hh" href={amjadInfo} target="_blank">
+                Amjad Data
+              </a>
+            </Button>
           </span>
 
           <div className=" div_end enddiv ">

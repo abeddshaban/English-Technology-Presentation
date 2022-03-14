@@ -46,7 +46,7 @@ function App() {
       <section className="S ">
         <div className="w100">
           <span className="thx FredokaFont textShineBlack">
-            thanks for your attention
+            thank you for your attention
           </span>
         </div>
         <div className="qr_div">

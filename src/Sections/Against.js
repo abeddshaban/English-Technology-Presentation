@@ -6,8 +6,12 @@ import MailIcon from "@mui/icons-material/Mail";
 import redRobot from "../Images/redRobot.png";
 import { Button } from "@mui/material";
 import { useState } from "react";
+import Draggable from "react-draggable";
 import UrAnIdiot from "../Images/urAnid.jpg";
 import amjadInfo from "../Images/amjadInfo.pdf";
+import plag from "../Images/plag.png";
+import idea from "../Images/idea.png";
+import disconnect from "../Images/disconnect.webp";
 
 const Popup = () => {
   return (
@@ -30,6 +34,7 @@ const Against = () => {
   const togglePopup = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <>
       <section className="S bluebg flexcol textwhite">
@@ -88,9 +93,32 @@ const Against = () => {
           <img src={redRobot} alt="label" className="img_redRobot" />
           <span className="list_redspan">Plagiarism</span>
         </ul>
-        <span className="details">
-          Answers can be found on Google, Reddit, Quora, Medium, Answerbag ..
-        </span>
+
+        <div className="mD">
+          <span className="details">
+            <h3>Technology has facilitated every single aspect of life</h3>
+            <span className=" ul_list">
+              Plagiarism exists in more than just digital forms as information
+              can be handwritten or even printed. Therefore, rendering
+              plagiarism checkers are useless most of the time.
+              <div id="div1">
+                <Draggable>
+                  <img
+                    src={idea}
+                    draggable="true"
+                    id="drag1"
+                    width="31"
+                    height="31"
+                  />
+                </Draggable>
+              </div>
+              <div id="div2"></div>
+            </span>
+          </span>
+          <div className="details div_end FredokaFont">
+            <img className="bc_img" src={plag} alt="plag" />
+          </div>
+        </div>
       </section>
 
       <section className="S bluebg flexcol">
@@ -98,9 +126,20 @@ const Against = () => {
           <img src={redRobot} alt="label" className="img_redRobot" />
           <span className="list_redspan">Increases Social Disconnect</span>
         </ul>
-        <span className="details">
-          people prefer to stay on their electronics instead of other people.
-        </span>
+
+        <div className="mD">
+          <span className="details textwhite">
+            <span className=" ul_list">
+              Technology has made it easier to connect & socialize from behind a
+              screen without having to be physically present with other people
+              which makes users more connected to screens than humans in real
+              life.
+            </span>
+          </span>
+          <div className="details div_end FredokaFont">
+            <img className="bc_img" src={disconnect} alt="disconnect" />
+          </div>
+        </div>
       </section>
     </>
   );

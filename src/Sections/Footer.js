@@ -3,11 +3,18 @@ import "./Styles/Footer.css";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Discord from "../Images/discord.png";
 import ReplyIcon from "@mui/icons-material/Reply";
+import Abed from "../Images/Abed.png";
+import Lara from "../Images/Lara.jpg";
+import Rein from "../Images/Rein.jpg";
+import mohammad from "../Images/mohammad.jpg";
 
-const Info = ({ name, email, discord }) => {
+const Info = ({ pp, name, email, discord }) => {
   return (
     <section className="contact_section">
-      <span>{name}</span>
+      <span className="profile">
+        <img className="ppFooter" src={pp} alt="profile pic" />
+        <span className="marginleft100">{name}</span>
+      </span>
       <span className="contact_section_span">
         <MailOutlineIcon className="mailIcon" />
         <a className="span_text" href={"mailto:" + email}>
@@ -112,6 +119,20 @@ const Footer = () => {
     setIsOpen(!isOpen);
   };
 
+  const [nbX, setnbX] = useState(0);
+
+  const Rick = () => {
+    if (nbX == 0) {
+      window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+      // window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      // https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      console.log("rickroll");
+      setnbX(1);
+    } else {
+      togglePopup();
+    }
+  };
+
   return (
     <div className="halfS FredokaFont">
       <div className="textwhite footer_div">
@@ -119,31 +140,35 @@ const Footer = () => {
         <section className="footer_section">
           <Info
             name="Abed Al Ghani"
+            pp={Abed}
             email="abedshaaban600@gmail.com"
             discord="useless#7942"
           />
 
           <Info
             name="Lara"
+            pp={Lara}
             email="houssamilara915@gmail.com"
             discord="komi#9110"
           />
 
           <Info
             name="Mohammad"
+            pp={mohammad}
             email="ma060704@gmail.com"
             discord="masterchips#4891"
           />
 
           <Info
             name="Rein"
+            pp={Rein}
             email="rein.berro@gmail.com"
             discord="wraith#6036"
           />
         </section>
         <section className="trustmebro">
           <span>resources:</span>
-          <span className="margleft " onClick={togglePopup}>
+          <span className="margleft " onClick={Rick}>
             <span className="textunderlined">trust me bro</span>
             {isOpen && <Popup handleClose={togglePopup} />}
           </span>

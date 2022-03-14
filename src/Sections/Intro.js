@@ -32,14 +32,18 @@ const Intro = () => {
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
           <span className="list_span">
-            <span className="underlined">Statistics</span>:
+            <span className="underlined">Statistics</span>: Google handles 3.8
+            million searches per minute on average across the globe. That comes
+            out to 228 million searches per hour, 5.6 billion searches per day,
+            or 2 trillion searches per year!
           </span>
         </ul>
 
         <ul className="textwhite list">
           <img src={label} alt="label" className="img_label" />
           <span className="list_span">
-            <span className="underlined">Facts</span>:
+            <span className="underlined">Facts</span>: Health apps that help you
+            track diet, exercise, and mental health information.
           </span>
         </ul>
 

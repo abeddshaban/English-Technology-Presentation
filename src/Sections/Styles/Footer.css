@@ -130,3 +130,20 @@
 :focus {
   color: #000;
 }
+
+.ppFooter {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+}
+
+.marginleft100 {
+  padding-left: 10px;
+}

@@ -34,7 +34,7 @@ function App() {
             mt="Disadvantage"
             ci1="Breaches security"
             ci2="Plagiarism"
-            ci3="Increases Social Disconnect"
+            ci3="Social Quarantine"
           />
         </div>
       </section>
@@ -50,7 +50,7 @@ function App() {
           </span>
         </div>
         <div className="qr_div">
-          <img className="qrimg" src={QRcode} alt="" />
+          <img className="qrimg" src={QRcode} alt="QRcode" />
         </div>
       </section>
 

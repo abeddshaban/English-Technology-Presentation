@@ -40,7 +40,7 @@ const Against = () => {
       <section className="S bluebg flexcol textwhite">
         <ul className="textwhite list">
           <img src={redRobot} alt="label" className="img_redRobot" />
-          <span className="list_redspan">Breaches secure</span>
+          <span className="list_redspan">Breaches security</span>
         </ul>
         <span className="details">
           <b>selling private info in the black market</b>
@@ -124,7 +124,7 @@ const Against = () => {
       <section className="S bluebg flexcol">
         <ul className="textwhite list">
           <img src={redRobot} alt="label" className="img_redRobot" />
-          <span className="list_redspan">Increases Social Disconnect</span>
+          <span className="list_redspan">Social Quarantine</span>
         </ul>
 
         <div className="mD">

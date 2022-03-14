@@ -121,10 +121,6 @@ const With = () => {
         </ul>
 
         <div className="mD">
-          <div>
-            how technology provids relaxation and entertainment / release stress
-          </div>
-
           <div className="details div_end FredokaFont textwhite">
             <table className="borderwhite">
               <tr className="borderwhite">

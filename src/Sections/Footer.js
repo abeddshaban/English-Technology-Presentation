@@ -133,9 +133,9 @@ const Footer = () => {
           />
         </section>
         <section className="trustmebro">
-          <span>trust me bro:</span>
+          <span>resources:</span>
           <span className="margleft " onClick={togglePopup}>
-            <span className="textunderlined">resources</span>
+            <span className="textunderlined">trust me bro</span>
             {isOpen && <Popup handleClose={togglePopup} />}
           </span>
         </section>

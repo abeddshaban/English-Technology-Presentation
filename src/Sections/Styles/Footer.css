@@ -95,6 +95,7 @@
   padding: 20px;
   border: 1px solid #999;
   overflow: auto;
+  z-index: 5;
 }
 
 .close-icon {
@@ -124,8 +125,8 @@
   display: flex;
   flex-direction: row;
 }
-.H:hover,
-::after,
-::before {
+
+.H:active,
+:focus {
   color: #000;
 }

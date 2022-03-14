@@ -58,9 +58,32 @@
   padding-right: 5vw;
   padding-left: 5vw;
 }
+.virus_div {
+  display: flex;
+  justify-content: center;
+}
+
+.virus {
+  width: 100%;
+  height: 250px;
+  max-width: 383px;
+}
+
+.enddiv {
+  width: 50vw;
+  padding-right: 20px;
+}
 
 @media only screen and (min-width: 530px) {
   .list_redspan {
     font-size: x-large;
+  }
+  .enddiv {
+    width: 65vw;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .enddiv {
+    width: 65vw;
   }
 }

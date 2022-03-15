@@ -47,13 +47,6 @@ const Against = () => {
         </span>
         <div className="mD">
           <span className="details">
-            <ul className=" ul_list">
-              <li>health</li>
-              <li>security</li>
-              <li>communication</li>
-              <li>shopping</li>
-              <li>entertainment</li>
-            </ul>
             <Button>
               <a className="hh" href={amjadInfo} target="_blank">
                 Amjad Data

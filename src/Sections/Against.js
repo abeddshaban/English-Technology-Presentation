@@ -48,7 +48,12 @@ const Against = () => {
         <div className="mD">
           <span className="details">
             <Button>
-              <a className="hh" href={amjadInfo} target="_blank">
+              <a
+                rel="noreferrer"
+                className="hh"
+                href={amjadInfo}
+                target="_blank"
+              >
                 Amjad Data
               </a>
             </Button>
@@ -102,6 +107,7 @@ const Against = () => {
                     id="drag1"
                     width="31"
                     height="31"
+                    alt=""
                   />
                 </Draggable>
               </div>
